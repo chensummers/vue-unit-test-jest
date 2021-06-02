@@ -10,15 +10,15 @@
 <script>
 // @ is an alias to /src
 import Test from "@/components/Test.vue";
-
+import {userService} from './api'
 export default {
   name: "TestUnit",
   components: {
     Test
   },
   mounted() {
-    this.$http.get('/user').then(res=>{
-      console.log('/TestUnit.vue [20]--1',res);
+    userService().then(res=>{
+      console.log('/TestUnit.vue [20--view]--1',res);
     })
   }
 };

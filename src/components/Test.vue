@@ -21,8 +21,8 @@
             title:String
         },
         methods:{
-            handleCheck (e) {
-                let value = e.target.value;
+            handleCheck () {
+                // let value = e.target.value;
             }
         }
     }
