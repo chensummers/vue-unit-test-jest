@@ -20,7 +20,7 @@ npm run build
 npm run test:unit
 ```
 #### show unit reports
->- jest.config.js
+> jest.config.js
 ```
  collectCoverage:true
 ```
