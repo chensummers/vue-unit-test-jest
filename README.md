@@ -19,6 +19,11 @@ npm run build
 ```
 npm run test:unit
 ```
+#### show unit reports
+> jest.config.js
+```
+ collectCoverage:true
+```
 
 ### Run your end-to-end tests
 ```
