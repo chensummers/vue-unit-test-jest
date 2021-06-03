@@ -71,6 +71,14 @@
     "not dead"
   ],
   "jest": {
-    "preset": "@vue/cli-plugin-unit-jest"
+    "preset": "@vue/cli-plugin-unit-jest",
+    "displayName": {
+      "name": "vue-test-unit", 
+      "color": "red"
+    },
+    "collectCoverage": false,
+    "coverageDirectory": "<rootDir>/tests/unit/coverage",
+    "collectCoverageFrom": ["<rootDir>/src/components/*.{js,vue}", "!**/node_modules/**"],
+    "testMatch": ["<rootDir>/tests/unit/**/?(*.)+(spec|test).[jt]s?(x)"]
   }
 }

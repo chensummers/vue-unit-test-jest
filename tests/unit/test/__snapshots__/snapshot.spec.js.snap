@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YesNoComponent snapshot renders correctly 1`] = `
+<div>
+  <button
+    class="yes"
+  >
+    Yes
+  </button>
+   
+  <button
+    class="no"
+  >
+    No
+  </button>
+</div>
+`;

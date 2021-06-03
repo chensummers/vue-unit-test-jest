@@ -3,7 +3,7 @@ node_modules
 /dist
 
 #vue
-/tests
+tests/unit/coverage
 
 # local env files
 .env.local
